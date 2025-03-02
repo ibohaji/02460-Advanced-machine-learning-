@@ -308,7 +308,6 @@ def test(model, test_loader, device, latent_dim, save_figure=True):
         cmap="tab10",
         alpha=0.7,
         s=6,
-        edgecolor="k",  # Black edge to make points visible
         linewidth=0.4,
         label="Posterior Samples"
     )
